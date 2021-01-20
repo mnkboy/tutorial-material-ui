@@ -1,0 +1,95 @@
+
+Pasos para crear un CRUD
+
+1.- npx create-react-app redux
+2.- cd redux
+3.- npm install react-hook-form
+4.- npm install uuid
+5.- Eliminamos todo el contenido de SRC	menos:
+	App.js, index.css, index.js
+6.- Copiamos los estilos en Index.css
+7.-
+8.-
+9.-
+10.-
+-----------------------------
+Rutas
+npm install react-router-dom
+copiamos cdn bootstrap
+pegamos en public index.html
+
+Imagenes template:
+https://via.placeholder.com/150
+
+-----------------------------
+
+GraphQl
+npm install apollo-boost react-apollo graphql
+
+-----------------------------
+
+
+
+
+C/O https://placeholder.com/
+
+-------------------
+
+Snippets
+rafce = Exportar funcion con componentes
+--------------------------
+
+Cors unblock
+
+plugin para google chrome
+
+pero es solo para debug
+--------------------------
+Revisar ReactStrap
+
+--------------------------
+
+
+
+
+-------------------------------------
+--------------- REDUX ---------------
+-------------------------------------
+Instalamos ReduxDevTools en chrome
+
+1.- npx create-react-app tutorial-redux
+2.- cd redux
+3.- npm install redux react-redux redux-devtools redux-thunk axios
+4.- Dentro de 
+	src
+	 ->redux //<- Creamos carpeta redux
+5.- src
+	 ->redux
+	 	->store.js	 Creamos archivo store.js
+6.- Creamos nuestros ducks
+		src
+		 ->redux	 	
+		 	->ducks.js
+
+
+-------------------------------------------
+--------------- MATERIAL-UI ---------------
+-------------------------------------------
+1.- npx create-react-app tutorial-material-ui
+2.-npm install @material-ui/core
+3.- Limpiamos proyecto de archivos inecesarios
+4.- Copiamos fuente roboto a:
+	public
+		->index.html
+
+dentro de head:
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+5.- para importar los elementos del material-ui en
+	el proyecto usamos defragment:
+	<Button>Este es un boton</Button>
+6.- Instalamos plugin en vscode	
+
+7.- Instalamos iconos:
+	npm install @material-ui/icons
