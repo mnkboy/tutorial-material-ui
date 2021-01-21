@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Button from '@material-ui/core/Button'
 import DeleteIcon from '@material-ui/icons/Delete'
-import { Icon, IconButton } from '@material-ui/core'
+import { Icon, IconButton, Typography } from '@material-ui/core'
 function App() {
   return (
     <Fragment>
@@ -77,6 +77,18 @@ function App() {
         />
 
       </IconButton>
+
+      <Typography variant="h1" color="initial">
+        Hola tarolas como estas ?
+      </Typography>
+
+      <Typography variant="body1" color="secondary" align="center" paragraph> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus animi error molestiae odio nulla! Perspiciatis vitae adipisci, voluptatem nulla eaque tenetur itaque culpa velit natus libero excepturi vero unde beatae?</Typography>
+      <Typography variant="body1" color="primary" align="center" gutterBottom>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus animi error molestiae odio nulla! Perspiciatis vitae adipisci, voluptatem nulla eaque tenetur itaque culpa velit natus libero excepturi vero unde beatae?
+      </Typography>
+      <Typography variant="body1" color="primary" align="center" gutterBottom>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus animi error molestiae odio nulla! Perspiciatis vitae adipisci, voluptatem nulla eaque tenetur itaque culpa velit natus libero excepturi vero unde beatae?
+      </Typography>
     </Fragment>
 
   );
