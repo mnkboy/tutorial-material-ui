@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import theme from './temaConfig'
 import Navbar from './components/Navbar';
 import Listas from './components/Listas';
+import Oculto from './components/Oculto';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Navbar />
         <Listas />
+        <Oculto />
       </ThemeProvider>
     </Fragment>
   );
