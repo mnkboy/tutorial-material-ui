@@ -1,17 +1,14 @@
+import React from 'react';
 import { ThemeProvider } from '@material-ui/core/styles'
 import { Fragment } from 'react';
 import theme from './temaConfig'
-import Navbar from './components/Navbar';
-import Listas from './components/Listas';
-import Oculto from './components/Oculto';
+import Contenedor from './components/Contenedor';
 
 function App() {
   return (
     <Fragment>
       <ThemeProvider theme={theme}>
-        <Navbar />
-        <Listas />
-        <Oculto />
+        <Contenedor />
       </ThemeProvider>
     </Fragment>
   );
