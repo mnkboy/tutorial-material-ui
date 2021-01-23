@@ -1,25 +1,30 @@
 import React from 'react'
-import { Box } from '@material-ui/core'
+import { Box, Grid } from '@material-ui/core'
 function Cajita() {
     return (
         <div>
-            <Box
-                color='primary.main'
-            >Cajita BOX
-            </Box>
-            <Box
-                color='primary.contrastText'
-                bgcolor='primary.main'
-            >Cajita BOX
-            </Box>
-            <Box
-                color='primary.contrastText'
-                bgcolor='primary.main'
-                mx={4}
-                mt={4}
-                pt={5}
-            >Cajita BOX
-            </Box>
+            <Grid container>
+                <Grid item xs={12}>
+                    <Box border={1}>
+                        xs 12
+                    </Box>
+                </Grid>
+                <Grid item xs={12} sm={6} md={4}>
+                    <Box border={1}>
+                        xs 6
+                    </Box>
+                </Grid>
+                <Grid item xs={12} sm={6} md={4}>
+                    <Box border={1}>
+                        xs 6
+                    </Box>
+                </Grid>
+                <Grid item xs={12} sm={6} md={4}>
+                    <Box border={1}>
+                        xs 6
+                    </Box>
+                </Grid>
+            </Grid>
         </div>
     )
 }
