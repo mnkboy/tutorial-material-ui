@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { makeStyles, Hidden } from '@material-ui/core'
 import Navbar from './Navbar';
 import Cajon from './Cajon';
+import Cajita from './Cajita';
 
 const estilos = makeStyles(theme => ({
     root: {
@@ -39,7 +40,7 @@ const Contenedor = () => {
             <div className={classes.content}> {/* <- Aca es donde vamos a poner el contenido */}
                 <div className={classes.toolbar}>
                 </div> {/* Con este ya no se sobremonta el navbar */}
-                <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere fugiat, molestias temporibus omnis, aperiam officia ipsam animi eum nostrum quos harum pariatur eaque rem impedit ut laboriosam nihil dignissimos.</h1>
+                <Cajita />
             </div>
 
         </div >
