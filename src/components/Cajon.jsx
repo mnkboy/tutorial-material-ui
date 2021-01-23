@@ -16,18 +16,20 @@ const estilos = makeStyles(theme => ({
 
 }))
 
-const Cajon = () => {
+const Cajon = (props) => {
 
     const classes = estilos()
 
     return (
         <Drawer
             className={classes.drawer}
-            variant='permanent'
             classes={{
                 paper: classes.drawerPaper
             }}
             anchor='left'
+            variant={props.variant}
+            open={props.open}
+            onClose={props.onClose ? props.onClose : null}
         >
             <div className={classes.toolbar}></div>
             <Divider />
