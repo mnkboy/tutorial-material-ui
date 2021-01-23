@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core'
 import Navbar from './Navbar';
 import Cajon from './Cajon';
 
-const drawerWidth = 240;
 const estilos = makeStyles(theme => ({
     root: {
         display: 'flex'
