@@ -93,3 +93,16 @@ dentro de head:
 
 7.- Instalamos iconos:
 	npm install @material-ui/icons
+
+
+	Desarrollar sistemas, y caminar sobre el agua es fácil, si están congelados 
+
+
+
+	==========================
+	Drawer
+	1.- Creo componente
+	2.-Importo makeStyles
+	3.- creo const estilos
+	4.- Agrego elementos al objeto estilos
+	5.- Declaro const clases dentro de la funcion del componente

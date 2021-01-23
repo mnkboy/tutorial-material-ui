@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
+import { List, ListItem, ListItemIcon, ListItemText, Divider } from '@material-ui/core';
 import CloudQueueIcon from '@material-ui/icons/CloudQueue'
 import DeckIcon from '@material-ui/icons/Deck';
 
@@ -9,14 +9,15 @@ const Listas = () => {
             <ListItem button>
                 <ListItemIcon>
                     <CloudQueueIcon />
-                    <ListItemText primary='Cloud Computing' />
                 </ListItemIcon>
+                <ListItemText primary='Cloud Computing' />
             </ListItem>
+
             <ListItem button>
                 <ListItemIcon>
                     <DeckIcon />
-                    <ListItemText primary='Sit and rest' />
                 </ListItemIcon>
+                <ListItemText primary='Sit and rest' />
             </ListItem>
         </List>
     );
