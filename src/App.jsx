@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { ThemeProvider } from '@material-ui/core/styles'
-import { Fragment } from 'react';
 import theme from './temaConfig'
 import Contenedor from './components/Contenedor';
 

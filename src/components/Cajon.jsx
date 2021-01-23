@@ -1,38 +1,41 @@
 import React from 'react'
-
-import { makeStyles, Drawer, Toolbar, Divider } from '@material-ui/core';
+import { makeStyles, Drawer, Divider } from '@material-ui/core'
 import Listas from './Listas';
 
 const drawerWidth = 240;
+
 const estilos = makeStyles(theme => ({
     drawer: {
         width: drawerWidth,
-        flexShrink: 0,
+        flexShrink: 0
     },
     drawerPaper: {
-        width: drawerWidth,
-
+        width: drawerWidth
     },
-    toolbar: theme.mixins.toolbar
+    toolbar: theme.mixins.toolbar,
+
 }))
+
 const Cajon = () => {
-    const clases = estilos()
+
+    const classes = estilos()
+
     return (
-        <div>
-            <Drawer className={clases.drawer}
-                variant="permanent"
-                classes={{
-                    paper: clases.drawerPaper,
-                }}
-                anchor='left'
-            >
-                <div className={clases.toolbar}></div>
-                <Divider />
-                <Listas />
-            </Drawer>
-        </div>
+        <Drawer
+            className={classes.drawer}
+            variant='permanent'
+            classes={{
+                paper: classes.drawerPaper
+            }}
+            anchor='left'
+        >
+            <div className={classes.toolbar}></div>
+            <Divider />
+            <Listas />
+        </Drawer >
+
+
     )
 }
-
 
 export default Cajon
